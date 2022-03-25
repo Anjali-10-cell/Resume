@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="pet home.css">
+    <link rel="stylesheet" href="pet.css">
 </head>
 <body>
    <div class="header">
@@ -18,9 +18,8 @@
         </ul>
        </nav>
    </div>
-   <section>
-    <img src="dog.png" alt="sorry" >
-</section> 
+   <section class="my_img">
+   </section> 
 </body>
 </html>
 
@@ -34,6 +33,7 @@
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
 }
+
 .header{
     width: 100%;
     height: 100%;
@@ -42,23 +42,27 @@
 }
 nav{
     width: 100%;
-    padding: 20px 0;
+    /*padding: 20px 0;*/
     text-align: center;
 }
 nav ul{
-    background: rgb(8, 8, 8);
+    background:gray;
     width: 100%;
-    margin-top: 10px;
 }
 nav ul li{
     display: inline-block;
     list-style: none;
     margin: 20px 30px;
-    color:rgb(221, 255, 0)
+    color:rgb(105, 128, 0)
 }
- section{
-    background:url(dog.png);
+section.my_img{
+    height:100vh;
+    width: 100%;
+    background:url(Dog.png);
+    background-size: cover;
     margin-top:10px;
     background-repeat: no-repeat;
 
 }
+
+
