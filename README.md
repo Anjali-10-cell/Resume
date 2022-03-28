@@ -44,7 +44,7 @@
     <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
-        </priyanshi>
+     
     </a>
   </div>
 </body>
